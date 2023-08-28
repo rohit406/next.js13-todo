@@ -17,7 +17,7 @@ export default async function Home() {
   return <>
 
     <header className="flex justify-between items-center mb-4 ">
-      <h1 className="text-xl ">Todos</h1>
+      <h1 className="text-xl ">Todo list</h1>
       <Link href={'/new'} className="border border-green-400 rounded-sm px-2 py-1 hover:bg-slate-950 focus-within:bg-slate-950 outline-none">New</Link>
     </header>
     <ul className="pl-4">
